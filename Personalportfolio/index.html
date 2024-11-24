@@ -19,32 +19,34 @@
     <link rel="icon"
         href="https://firebasestorage.googleapis.com/v0/b/my-app-51676.appspot.com/o/favicon.ico?alt=media&token=e31e8cc8-8fd9-4736-81ed-e2abfe3fd5a6"
         type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
 
 <body>
-    <header>
+    <header class="navigation-container">
         <div>
             <!--<img src="https://firebasestorage.googleapis.com/v0/b/my-app-51676.appspot.com/o/premium_photo-1661882403999-46081e67c401.jpg?alt=media&token=e456262c-1e43-47ff-abd2-8a51eeb59bc0" alt="logo">-->
-            <h1>Argenis Mendoza</h1>
+            <h1 class="title">Argenis Mendoza</h1>
         </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Proyects</a>
-            <a href="articles.html">Articles</a>
-            <a href="contact.html">Contact</a>
+        <nav class="nav-links">
+            <a class="links" href="index.html">Home</a>
+            <a class="links" href="projects.html">Proyects</a>
+            <a class="links" href="articles.html">Articles</a>
+            <a class="links" href="contact.html">Contact</a>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="hero-section">
             <h2>Desarrollador Full Stack</h2>
             <p>
                 Convirtiendo ideas en codigo
             </p>
         </section>
-        <section>
-            <div>
+        <section class="container_central">
+            <div class="proyectos">
                 <h3>Proyectos</h3>
-                <ul>
+                <ul class="proyects">
                     <li>HTML Only Portafolio</li>
                     <li>Calculator</li>
                     <li>Quiz App</li>
@@ -53,25 +55,30 @@
                 </ul>
             </div>
             <div>
-                <article>
+                <article class="experience">
                     <h3>Work Experience</h3>
-                    <p>roadmap.sh</p>
+                    <p class="experience-title">roadmap.sh</p>
                     <p>Solved all the frontend projects</p>
-                    <a href="/">Visit my Profile</a>
+                    <a href="https://roadmap.sh/u/argenis">Visit my Profile</a>
                 </article>
-                <article>
-                    <h3>OpenSource Work</h3>
-                    <p>OpenSource Work</p>
+                <article class="experience">
+                    <h3 class="line">OpenSource Work</h3>
+                    <p class="opensource-title">OpenSource Work</p>
                     <p>Contributed to 50 open-source projects. Made my own projects with 200 GitHub Stars.</p>
-                    <a href="/">Visit my GitHub Profile</a>
+                    <a href="https://github.com/ArgenisMendoza">Visit my GitHub Profile</a>
                 </article>
             </div>
-            <div>
+            <div class="education">
                 <h3>Education</h3>
                 <p>
-                    Undergraduate in Computer Science, studies included the following:
+                    Graduate with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.
+                    <br>
+                    <br>
+                    Course I took:
+                    <br>
+                    <br>
                 </p>
-                <ul>
+                <ul class="education-list">
                     <li>Object Oriented Programming</li>
                     <li>Data Structures and Algorithms</li>
                     <li>Web Engineering</li>
@@ -84,25 +91,25 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="review-from-teacher">
             <h4>Reviews from my Teachers</h4>
             <aside>
                 <blockquote>
                     <h5>John Doe was a brilliant student; always stood out with his assignments.</h5>
-                    <footer>Jane Doe, Assistant Professor</footer>
+                    <footer>Jane Doe, <br> Assistant Professor</footer>
                 </blockquote>
                 <blockquote>
                     <h5>John Doe was a brilliant student; always stood out with his assignments.</h5>
-                    <footer>Jane Doe, Assistant Professor</footer>
+                    <footer>Jane Doe, <br> Assistant Professor</footer>
                 </blockquote>
                 <blockquote>
                     <h5>John Doe was a brilliant student; always stood out with his assignments.</h5>
-                    <footer>Jane Doe, Assistant Professor</footer>
+                    <footer>Jane Doe, <br> Assistant Professor</footer>
                 </blockquote>
             </aside>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <h6>&copy; all rights reserved 2024</h6>
     </footer>
 </body>
