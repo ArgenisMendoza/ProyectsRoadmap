@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accesible Form</title>
+        <meta name="description" content="Accesible Form of Argenis Mendoza, a Full Stack Developer." />
+        <meta name="keywords"
+            content="Frontend Developer, basic html, Roadmap proyects, Backend Developer, HTML, CSS, JavaScript, ReactJs, NextJs, QwikJs, Web Development" />
+        <meta name="author" content="Argenis Mendoza" />
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Argenis Mendoza - Full Stack Developer" />
+        <meta property="og:description" content="Accesible Form of Argenis Mendoza, a Full Stack Developer." />
+        <meta property="og:image"
+            content="https://firebasestorage.googleapis.com/v0/b/my-app-51676.appspot.com/o/premium_photo-1661882403999-46081e67c401.jpg?alt=media&token=e456262c-1e43-47ff-abd2-8a51eeb59bc0" />
+        <meta property="og:type" content="social" />
+        <meta property="og:url" content="https://github.com/ArgenisMendoza?tab=repositories" />
+        <link rel="icon"
+            href="https://firebasestorage.googleapis.com/v0/b/my-app-51676.appspot.com/o/favicon.ico?alt=media&token=e31e8cc8-8fd9-4736-81ed-e2abfe3fd5a6"
+            type="image/x-icon" />
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    </head>
+<body>
+    <main>
+        <section class="container">
+            <form action="#">
+                <div class="inputs">
+                    <p class="text">Full Name</p>
+                    <input type="text" name="name" id="name" placeholder="What should we call you?">
+                </div>
+                <div class="inputs">
+                    <p class="text">Email</p>
+                    <input type="email" name="email" id="email" placeholder="john@doe.com">
+                    <p class="error">Email is already taken</p>
+                </div>
+                <div class="inputs">
+                    <p class="text">Enter Password</p>
+                    <div class="password">
+                        <input type="password" name="password" id="password" placeholder="xxxxxxxx">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                            <path fill-rule="evenodd" d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113ZM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0Z" clip-rule="evenodd" />
+                          </svg>                          
+                    </div>
+                </div>
+                <div class="inputs">
+                    <p class="text">Confirm Password</p>
+                    <div class="password">
+                        <input type="password" name="passwordrepeat" id="password-repeat" placeholder="xxxxxxxx">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                            <path fill-rule="evenodd" d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113ZM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0Z" clip-rule="evenodd" />
+                          </svg>                          
+                    </div>
+                </div>
+                <button class="btn" type="submit">Update Profile</button>
+            </form>
+        </section>
+        <section class="details">
+            <div class="progress">
+                <progress class="values" value="65" min="0" max="100">65%</progress>
+            </div>
+            <p class="text align">Profile Completeness</p>
+            <div class="card_text">
+                <p>Create Account</p>
+                <p>Update Roadmap Progress</p>
+                <p>Setup Public Profile</p>
+                <p>Complete your first project</p>
+                <p>Invite your Friends</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
