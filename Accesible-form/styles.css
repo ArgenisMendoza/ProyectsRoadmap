@@ -1,0 +1,201 @@
+:root {
+    --dark: #fff;
+    --text: #000;
+    --padding: 10px;
+    --max-width: 800px;
+    --full: 100%;
+    --gray: #bbb;
+    --padding2: 5px 15px;
+    --ligth: #000;
+    --heigh: 460px;
+    --red: red;
+    --r: 20px;
+    --p: 25px;
+    --p2: 30px;
+    --w: 90%;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+    --xl: 36px;
+    --under: #706f6f;
+    --h: 160px;
+    --h2: 50px;
+    --xl2: 38px;
+    --hidden: hidden;
+    --null: 0;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --dark: #000;
+        --ligth: #fff;
+        --text: #fff;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: var(--text);
+    background-color: var(--dark);
+    font-family: sans-serif;
+    padding: var(--padding);
+}
+
+main {
+    max-width: var(--max-width);
+    height: var(--heigh);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--r);
+    padding: var(--null) var(--r);
+}
+
+.container {
+    width: 45%;
+    padding: 0 var(--padding);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding2);
+}
+
+.text {
+    font-size: var(--lg);
+    font-weight: 500;
+}
+
+#name,
+#email {
+    width: var(--full);
+    padding: var(--padding);
+    border: 1px solid var(--ligth);
+    border-radius: var(--padding);
+    outline: none;
+    font-size: var(--md);
+    width: var(--full);
+}
+
+#email {
+    color: var(--red);
+    border: 1px solid var(--red);
+}
+
+.error {
+    color: var(--red);
+    font-size: var(--sm);
+}
+
+.password {
+    border: 1px solid var(--ligth);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px var(--padding);
+    width: var(--full);
+    border-radius: var(--padding);
+}
+
+#password-repeat, #password {
+    height: var(--full);
+    flex: 1;
+    color: var(--text);
+    padding: var(--padding2);
+    outline: none;
+    font-size: var(--md);
+    border: none;
+    background-color: transparent;
+}
+
+#password::placeholder,
+#password-repeat::placeholder {
+    color: var(--gray);
+}
+
+.size-6 {
+    width: var(--p);
+    height: var(--p);
+    background-color: transparent;
+}
+
+.btn {
+    width: var(--full);
+    height: var(--h2);
+    background-color: var(--ligth);
+    color: var(--dark);
+    border: none;
+    font-size: var(--md);
+    border-radius: var(--padding);
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: var(--p);
+    padding: var(--null) var(--p2);
+    height: var(--full);
+    flex: 1;
+}
+
+.align {
+    text-align: start;
+    width: var(--full);
+}
+
+.card_text {
+    border-radius: var(--r);
+    padding: var(--p);
+    width: var(--w);
+    flex: 1;
+    background-color: var(--gray);
+}
+
+.card_text>p {
+    font-size: var(--md);
+    font-weight: 500;
+    line-height: var(--xl);
+}
+
+.card_text>p:nth-child(1),
+.card_text>p:nth-child(2),
+.card_text>p:nth-child(3) {
+    text-decoration-line: line-through;
+    color: var(--under);
+}
+
+.progress {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: var(--h);
+    height: var(--h);
+    border-radius: var(--full);
+    background: radial-gradient(closest-side, var(--dark) 79%, transparent 80% 100%), conic-gradient(var(--ligth) 65%, var(--gray));
+}
+.progress::before{
+    content: "65%";
+    font-size: var(--xl2);
+}
+
+.values {
+    visibility: var(--hidden);
+    height: var(--null);
+    width: var(--null);
+}
