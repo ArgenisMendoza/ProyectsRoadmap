@@ -1,0 +1,105 @@
+:root{
+    --dark: #fff;
+    --text: #000;
+    --padding: 10px;
+    --max-width: 600px;
+    --full: 100%;
+    --gray: #bbb;
+    --padding2: 5px 15px;
+    --ligth: #000;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: var(--text);
+    background-color: var(--dark);
+    font-family: sans-serif;
+    padding: var(--padding);
+}
+main{
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.input{
+    width: var(--full);
+    padding: var(--padding);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 100%;
+    border: 1px solid var(--gray);
+    border-radius: var(--padding);
+    display: flex;
+    padding: var(--padding2);
+}
+#datetime{
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+}
+.btn{
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.size-6{
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+}
+.calendar{
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    right: 10px;
+    border: 1px solid var(--ligth);
+    border-radius: var(--padding);
+}
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding);
+}
+.size-7{
+    width: 24px;
+    height: 24px;
+}
+.row>p{
+    font-size: 16px;
+}
+table{
+    width: var(--full);
+    margin-top: 24px;
+    border-spacing: 0;
+}
+table>tbody>tr>td{
+    padding: 3px 1px;
+    border: 1px solid #000;
+    text-align: center;
+}
+.downleft{
+    border-bottom-left-radius: 5px;
+}
+.downright{
+    border-bottom-right-radius: 5px;
+}
+.pointer{
+    cursor: pointer;
+}
+.pointer:hover{
+    background-color: var(--gray);
+    color: #fff;
+}
