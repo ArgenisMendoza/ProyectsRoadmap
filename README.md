@@ -10,6 +10,8 @@ En este proyecto se encuentran los proyectos de front-end de la plataforma, en o
 [Testimonial-Card](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/Testimonial)
 [DatePicker](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/datepicker)
 [Accesible-Form](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/Accesible-form)
+[Image-Grid-Layout](https://roadmap.sh/projects/image-grid)
+
 
 ### Proyectos para Practicar Roadmap.sh
 [BasicCV](https://roadmap.sh/projects/single-page-cv)
@@ -19,3 +21,4 @@ En este proyecto se encuentran los proyectos de front-end de la plataforma, en o
 [Testimonial-Card](https://roadmap.sh/projects/testimonial-cards)
 [DatePicker](https://roadmap.sh/projects/datepicker-ui)
 [Accesible-Form](https://roadmap.sh/projects/accessible-form-ui)
+[Image-Grid-Layout](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/Image%20Grid%20Layout)
