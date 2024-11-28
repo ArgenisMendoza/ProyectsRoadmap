@@ -1,0 +1,96 @@
+:root{
+    --padding: 10px;
+    --a: 18px;
+    --margin: 36px;
+    --full: 100%;
+    --null: 0;
+    --partial: 50%;
+    --gap: 24px;
+    --t: 30px;
+    --z: -999;
+    --p: 15px;
+    --w: 250px;
+    --mt: -55px;
+    --black: #000;
+    --white: #fff;
+    --h: 90px;
+}
+main{
+    padding: var(--padding);
+}
+section{
+    margin-top: var(--margin);
+    width: var(--full);
+    height: var(--full);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: var(--full);
+}
+nav>ul{
+    display: flex;
+    gap: var(--gap);
+    justify-content: center;
+    align-items: center;
+}
+nav>ul>li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: var(--a);
+    color: var(--black);
+}
+.dot{
+    background-color: rgb(189, 186, 186);
+    width: 6px;
+    height: 6px;
+    border-radius: var(--full);
+}
+
+.container-nav {
+    position: relative;
+    height: var(--h);
+    padding: var(--gap) var(--null);
+}
+
+.container-nav .text {
+    /*al colocar hidden comienza a funcionar con el efecto hover*/
+    visibility: visible;
+
+    width: var(--w);
+    margin-top: var(--mt);
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: var(--p);
+    border-radius: var(--padding);
+    position: absolute;
+    z-index: 1;
+    left: var(--partial);
+    right: var(--partial);
+    transform: translate(-50%, -50%);
+}
+.text::before {
+    content: "";
+    background-color: var(--black);
+    width: var(--gap);
+    height: var(--gap);
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: var(--z);
+    top: var(--t);
+    left: var(--partial);
+    right: var(--partial);
+}
+.container-nav:hover .text{
+    visibility: visible;
+}
