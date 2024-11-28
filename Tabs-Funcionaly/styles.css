@@ -1,0 +1,100 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --gray: #c7c6c6;
+    --text: #666565;
+    --p: 10px;
+    --g: 15px;
+    --tab: 18px;
+    --tab2: 22px;
+    --full: 100%;
+    --w: 80%;
+    --null: 0;
+    --max: 600px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: var(--black);
+    background-color: var(--white);
+    font-family: sans-serif;
+    padding: var(--p);
+}
+
+main {
+    border: 2px solid var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: calc(var(--p) * 2);
+    border-radius: calc(var(--p) * 2);
+    width: var(--w);
+}
+
+.container-btn {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: var(--g);
+    padding: var(--p);
+}
+
+.container-btn button {
+    font-size: var(--tab2);
+    padding: var(--p);
+    background-color: transparent;
+    border: none;
+    float: left;
+    cursor: pointer;
+    transition: 0.3s;
+    color: var(--gray);
+}
+
+.container-btn button.active {
+    border-bottom: 2px solid var(--text);
+    color: var(--text);
+}
+.tabs {
+    width: var(--max);
+    padding: var(--tab) var(--p);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: calc(var(--p) * 2);
+}
+
+.tabs>p {
+    font-size: var(--tab);
+    width: var(--full);
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--full);
+    height: 180px;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: calc(var(--p) * 2);
+}
+
+.content>h3 {
+    font-size: var(--tab);
+    font-weight: 500;
+}
+
+#Second,
+#Third,
+#Fourth {
+    display: none;
+}
