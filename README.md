@@ -13,6 +13,7 @@ En este proyecto se encuentran los proyectos de front-end de la plataforma, en o
 [Image-Grid-Layout](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/Image%20Grid%20Layout)
 [CSS-Tooltips](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/CSS%20Tooltip)
 [Tabs-Funcionaly](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/Tabs-Funcionaly)
+[Cookie-Consent](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/Cookie%20Consent)
 
 
 ### Proyectos para Practicar Roadmap.sh
@@ -26,3 +27,4 @@ En este proyecto se encuentran los proyectos de front-end de la plataforma, en o
 [Image-Grid-Layout](https://roadmap.sh/projects/image-grid)
 [CSS-Tooltips](https://roadmap.sh/projects/tooltip-ui)
 [Tabs-Funcionaly](https://roadmap.sh/projects/simple-tabs)
+[Cookie-Consent](https://roadmap.sh/projects/cookie-consent)
