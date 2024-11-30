@@ -1,0 +1,48 @@
+body{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    height: 200px;
+}
+.container textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    overflow: hidden;
+}
+.container>textarea::placeholder{
+    color: #acaaaa;
+}
+.container #counter{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    background: white;
+    padding: 10px;
+}
+.error{
+    border: 2px solid red !important;
+    color: red;
+}
+.error>textarea{
+    color: red;
+}
+.error>textarea::placeholder{
+    color: rgba(247, 69, 69, 0.623);
+}
