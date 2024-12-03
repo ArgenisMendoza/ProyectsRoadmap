@@ -1,0 +1,102 @@
+:root{
+    --null: 0;
+    --full: 100%;
+    --p: 15px;
+    --p2: 5px;
+    --w: 600px;
+    --gap: 20px;
+    --title: 36px;
+    --label: 16px;
+    --spacing: 10px;
+    --black: #000;
+    --white: #fff;
+    --gray: #a8a6a6;
+    --gray2: #464646;
+}
+*{
+    margin: var(--null);
+    padding: var(--null);
+}
+body {
+    color: var(--black);
+    background-color: var(--white);
+    font-family: sans-serif;
+    padding: var(--p);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--p);
+    width: auto;
+    max-width: var(--w);
+}
+form{
+    width: var(--full);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
+}
+.title{
+    font-size: var(--title);
+    text-align: center;
+    font-weight: bold;
+}
+.calendar{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    justify-content: center;
+    align-items: start;
+    width: var(--full);
+}
+.calendar>label{
+    font-size: var(--label);
+    font-weight: 500;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(var(--full) - var(--p));
+    border: 1px solid var(--black);
+    padding: var(--p2);
+    border-radius: var(--spacing);
+}
+input{
+    width: var(--full);
+    height: var(--full);
+    padding: var(--p2);
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: var(--label);
+}
+button{
+    width: var(--full);
+    padding: var(--p);
+    font-size: var(--label);
+    border: none;
+    background-color: var(--gray2);
+    border-radius: var(--spacing);
+    color: var(--white);
+    cursor: pointer;
+}
+.result{
+    width: calc(var(--full) - var(--p));
+    padding: var(--p);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#error{
+    color: #ff0000;
+    font-size: var(--label);
+    text-align: center;
+    margin-top: 5px;
+}
