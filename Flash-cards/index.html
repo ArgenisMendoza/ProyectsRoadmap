@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Cards</title>
+    <meta name="description" content="Flash Cards of Argenis Mendoza, a Full Stack Developer." />
+    <meta name="keywords"
+        content="Frontend Developer, basic html, Roadmap proyects, Backend Developer, HTML, CSS, JavaScript, ReactJs, NextJs, QwikJs, Web Development" />
+    <meta name="author" content="Argenis Mendoza" />
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Argenis Mendoza - Full Stack Developer" />
+    <meta property="og:description" content="Flash Cards of Argenis Mendoza, a Full Stack Developer." />
+    <meta property="og:image"
+        content="https://firebasestorage.googleapis.com/v0/b/my-app-51676.appspot.com/o/premium_photo-1661882403999-46081e67c401.jpg?alt=media&token=e456262c-1e43-47ff-abd2-8a51eeb59bc0" />
+    <meta property="og:type" content="social" />
+    <meta property="og:url" content="https://github.com/ArgenisMendoza?tab=repositories" />
+    <link rel="icon"
+        href="https://firebasestorage.googleapis.com/v0/b/my-app-51676.appspot.com/o/favicon.ico?alt=media&token=e31e8cc8-8fd9-4736-81ed-e2abfe3fd5a6"
+        type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <main>
+        <section class="questions">
+            <h3>Flash Cards</h3>
+            <div class="statusbar">
+                <div class="bar">
+                    <div id="progress" class="status"></div>
+                    <span id="percent">5%</span>
+                </div>
+                <p id="counter">1 of 20</p>
+            </div>
+            <div class="content">
+                <div class="question">
+                    <p id="question">What is JavaScript, what does it look like and what can it do?</p>
+                </div>
+                <div class="btn-container">
+                    <button onclick="Prev()" class="action prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                        </svg>
+                        Previous
+                    </button>
+                    <button onclick="Show()" class="action show">Show Answer</button>
+                    <button onclick="Next()" class="action next">
+                        Next
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                          </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
