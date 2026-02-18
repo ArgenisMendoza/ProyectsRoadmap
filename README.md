@@ -18,6 +18,7 @@ En este proyecto se encuentran los proyectos de front-end de la plataforma, en o
 [Accordion-Component](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/Acordion-Component)
 [Age-Calculator](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/Age-Calculator)
 [Flash-Cards](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/Flash-cards)
+[Quis-app](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/quis-app)
 
 
 ### Proyectos para Practicar Roadmap.sh
@@ -36,3 +37,4 @@ En este proyecto se encuentran los proyectos de front-end de la plataforma, en o
 [Accordion-Component](https://roadmap.sh/projects/accordion)
 [Age-Calculator](https://roadmap.sh/projects/age-calculator)
 [Flash-Cards](https://roadmap.sh/projects/flash-cards)
+[Quis-app](https://roadmap.sh/projects/quiz-app)
