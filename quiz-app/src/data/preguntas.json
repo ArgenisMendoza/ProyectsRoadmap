@@ -1,0 +1,49 @@
+{
+  "preguntas": [
+    {
+      "id": 1,
+      "categoria": "Cultura General",
+      "pregunta": "¿Cuál es la capital de Francia?",
+      "opciones": ["Londres", "Berlín", "París", "Madrid"],
+      "correcta": 2,
+      "explicacion": "París es la capital de Francia"
+    },
+    {
+      "id": 2,
+      "categoria": "Ciencias",
+      "pregunta": "¿Cuál es el planeta más cercano al Sol?",
+      "opciones": ["Venus", "Marte", "Mercurio", "Júpiter"],
+      "correcta": 2,
+      "explicacion": "Mercurio es el planeta más cercano al Sol"
+    },
+    {
+      "id": 3,
+      "categoria": "Historia",
+      "pregunta": "¿En qué año comenzó la Segunda Guerra Mundial?",
+      "opciones": ["1939", "1945", "1914", "1941"],
+      "correcta": 0,
+      "explicacion": "La Segunda Guerra Mundial comenzó en 1939"
+    },
+    {
+      "id": 4,
+      "categoria": "Cultura General",
+      "pregunta": "¿Quién pintó la Mona Lisa?",
+      "opciones": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Miguel Ángel"],
+      "correcta": 2,
+      "explicacion": "Leonardo da Vinci pintó la Mona Lisa"
+    },
+    {
+      "id": 5,
+      "categoria": "Programación",
+      "pregunta": "¿Qué significa HTML?",
+      "opciones": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Hyper Transfer Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "correcta": 0,
+      "explicacion": "HTML significa Hyper Text Markup Language"
+    }
+  ]
+}
