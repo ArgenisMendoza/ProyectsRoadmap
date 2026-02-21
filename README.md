@@ -6,7 +6,7 @@ Bienvenido a mi colección de proyectos front-end desarrollados como parte del r
 
 | # | Proyecto | Código | Demo |
 |---|----------|--------|------|
-| 1 | Basic CV | [🔗 Ver código](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/basiccv) | [🌐 Live Demo](#) |
+| 1 | Basic CV | [🔗 Ver código](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/basiccv) | [🌐 Live Demo](https://basiccv.vercel.app/) |
 | 2 | Basic HTML Website | [🔗 Ver código](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/basicHTML) | [🌐 Live Demo](#) |
 | 3 | Personal Portfolio | [🔗 Ver código](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/Personalportfolio) | [🌐 Live Demo](#) |
 | 4 | Changelog Component | [🔗 Ver código](https://github.com/ArgenisMendoza/ProyectsRoadmap/tree/main/changelog) | [🌐 Live Demo](#) |
